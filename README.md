@@ -9,7 +9,7 @@ To install the component, run the following command:
 ### `npm install`
 ### `npm install @mui/material`
 
-Runs the app in the development:
+Runs the app:
 ### `npm start`
 
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -37,6 +37,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 `<Rating nonInteractive />`
 `<Rating defaultValue={3.5} />`
 `<Rating caption />`
+
+
+Test the app:
+### `npm test`
 
 ## Version history
 
