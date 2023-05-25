@@ -33,13 +33,17 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 ## Example usage
 
 `<Rating fontSize='small' />`
+
 `<Rating disabled />`
+
 `<Rating nonInteractive />`
+
 `<Rating defaultValue={3.5} />`
+
 `<Rating caption />`
 
 
-Test the app:
+## Test the app:
 ### `npm test`
 
 ## Version history
