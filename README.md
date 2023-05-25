@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Rating component documentation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Rating component is a customizable star rating component built with React and Material-UI.
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+To install the component, run the following command:
 
+### `npm install`
+### `npm install @mui/material`
+
+Runs the app in the development:
 ### `npm start`
 
-Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Props
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| Prop | Type | Default value | Description |
+| :---         |     :---:      |     :---:      |          ---: |
+| precision   | number     | 1     | The precision of the rating value.    |
+| totalStars     | number       | 5       | The total number of stars to display.      |
+| emptyIcon     | element       | StarIcon       | The icon to display for empty stars.      |
+| filledIcon     | element       | StarIcon       | The icon to display for filled stars.      |
+| fontSize     | string       | 'medium'       | The font size for the stars. Can be 'small', 'medium', or 'large'.      |
+| disabled     | boolean       | false       | Whether the rating is disabled.      |
+| nonInteractive     | boolean       | false       | Whether the rating is non-interactive.      |
+| defaultValue     | number       | 0       | The default rating value.      |
+| caption     | boolean       | false       | Whether to display the rating value as a caption/text next to the stars.      |
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Example usage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+`<Rating fontSize='small' />`
+`<Rating disabled />`
+`<Rating nonInteractive />`
+`<Rating defaultValue={3.5} />`
+`<Rating caption />`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Version history
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1.0.0 - May 25, 2023
