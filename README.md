@@ -18,7 +18,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 ## Props
 
 | Prop | Type | Default value | Description |
-| :---         |     :---:      |     :---:      |          ---: |
+| :---         |     :---      |     :---      |          :--- |
 | precision   | number     | 1     | The precision of the rating value.    |
 | totalStars     | number       | 5       | The total number of stars to display.      |
 | emptyIcon     | element       | StarIcon       | The icon to display for empty stars.      |
