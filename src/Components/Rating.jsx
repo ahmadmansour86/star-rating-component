@@ -18,7 +18,6 @@ const Rating = ({
   const [hoverActiveStar, setHoverActiveStar] = useState(-1);
   const [isHovered, setIsHovered] = useState(false);
   const ratingContainerRef = useRef(null);
-  const disabledColor = '#eeeeee';
   
   // Default Rating calculation
   const calculateRating = (e) => {
@@ -69,6 +68,7 @@ const Rating = ({
 
   const EmptyIcon = emptyIcon;
   const FilledIcon = filledIcon;
+  const disabledColor = '#eeeeee';
 
   return (
     <Box
