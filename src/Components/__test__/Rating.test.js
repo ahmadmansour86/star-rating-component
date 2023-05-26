@@ -68,8 +68,12 @@ describe("Rating Component", () => {
         const domTree = renderer.create(<Rating precision={0.5}/>).toJSON();
         expect(domTree).toMatchSnapshot();
       });
-      it("Quarter star", () => {
+    it("Quarter star", () => {
         const domTree = renderer.create(<Rating precision={0.25}/>).toJSON();
+        expect(domTree).toMatchSnapshot();
+      });
+      it("Ten parts of the star", () => {
+        const domTree = renderer.create(<Rating precision={0.1}/>).toJSON();
         expect(domTree).toMatchSnapshot();
       });
   });

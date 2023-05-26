@@ -90,27 +90,27 @@ ReactDOM.render(
       }}
     >
       <Box>
-        <Rating precision={0.25} />
+        <Rating precision={0.5} />
         <Typography textAlign={'center'} fontSize='0.7rem' paddingTop= '50px'>
           0 stars
         </Typography>
       </Box>
       <Box>
-      <Rating defaultValue='1.5' precision={0.25} />
+      <Rating defaultValue='1.5' precision={0.5} />
         <Typography textAlign={'center'} fontSize='0.7rem' paddingTop= '50px'>
             1½ stars
         </Typography>
       </Box>
       <Box>
-        <Rating defaultValue='3' precision={0.25} />
+        <Rating defaultValue='3' precision={0.5} />
         <Typography textAlign={'center'} fontSize='0.7rem' paddingTop= '50px'>
             3 stars
         </Typography>
       </Box>
       <Box>
-        <Rating defaultValue='4.5' precision={0.25} />
+        <Rating defaultValue='4.5' precision={0.5} />
         <Typography textAlign={'center'} fontSize='0.7rem' paddingTop= '50px'>
-            4½
+            4½ stars
         </Typography>
       </Box>
     </Box>
